@@ -1,0 +1,71 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+    font-size: 1em;
+}
+
+body {
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  background-color: black;
+  color: silver;
+  text-align: center;
+  line-height: 1.5;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px;
+  font-size: 2em;
+}
+
+#source {
+  text-align: center;
+}
+
+#text{
+  padding: 20px 10px;
+}
+
+.container {
+  width: 700px;
+  max-width: 75%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px;
+  padding: 10px 10px;
+}
+
+.image-container img{
+  display: grid;
+  margin: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  background: goldenrod;
+  color: white;
+  border: 1px solid gold;
+  padding: 5px 5px;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+  background-color: gold;
+}
